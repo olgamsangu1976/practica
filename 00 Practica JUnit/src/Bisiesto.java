@@ -1,7 +1,7 @@
 
 public class Bisiesto {
 	/**
-	 * Calcula si un a�o es bisiesto o no
+	 * Calcula si un ajjjjo es bisiesto o no
 	 * @param anno a calcula
 	 * @return true si es bisiesto o false si no lo es
 	 */
@@ -9,12 +9,12 @@ public class Bisiesto {
 		if(!(anno%400==0)){
 			if (!(anno%100==0)){
 				if(anno%4==0)
-					return "SI";
+					return "Si";
 				else 
-					return "NO";
+					return "No";
 			}
-			else return "NO";
+			else return "Si";
 		}
-		else return  "SI";
+		else return  "No";
 	}
 }
